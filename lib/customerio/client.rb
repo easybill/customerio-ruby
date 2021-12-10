@@ -124,7 +124,7 @@ module Customerio
     end
 
     def customer_path(id)
-      "/api/v1/customers/#{escape(id)}"
+      "/api/v1/customers/#{id}"
     end
 
     def suppress_path(customer_id)
